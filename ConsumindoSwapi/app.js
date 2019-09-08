@@ -5,7 +5,8 @@ let  massa =document.querySelector('#mass');
 let  altura =document.querySelector('#height');
 function pegaInfo() {
     upgradeInfoComCarregamento()
-    let ApiUrl= 'https://swapi.co/api/people/1';
+    let NumPers =document.getElementById('NumPers').value;
+    let ApiUrl= 'https://swapi.co/api/people/'+NumPers;
     axios.get(ApiUrl).then(function(response){
         upgradeInfo(response.data);
     })
