@@ -1,2 +1,3 @@
 # SWAPI-Catch
- Finally i  do it  hell yeah
+codigo que conseme uma Api  atraves do 
+Axios,  bem tranquilo  de se fazer com  javaScript
